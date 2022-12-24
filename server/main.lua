@@ -12,3 +12,18 @@ AddEventHandler('aq-hud:server:update_statuses', function(statuses)
 
   -- Write your updating logic inside this event. use `example/server.lua` for reference.
 end)
+
+--[[
+  HUD Update DTO ( Data Transfer Object )
+
+  {
+    {
+      stauts: string;    -- Predefined statuses: 'health', 'addiction', 'thirst', 'hunger', 'staff', 'armor'.
+      statusValue: number | boolean | nil,    -- The current status value.
+      iconIsValue: boolean | nil,    -- Whether the value itself is the icon.
+      statusLabel: string,    -- Status label. Exampel: 'Hunger'.
+      show: booloean,    -- Whether the element is shown,
+      quota: string | nil,    -- Threshold.
+    }
+  }
+]]--
