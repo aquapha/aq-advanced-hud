@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/organisms/*": ["./src/app/components/organisms/*"],
+      "@/molecules/*": ["./src/app/components/molecules/*"],
+      "@/layouts/*": ["./src/app/components/layouts/*"],
+      "@/atoms/*": ["./src/app/components/atoms/*"],
+      "@/contexts/*": ["./src/app/contexts/*"],
+      "@/routing/*": ["./src/app/routes/*"],
+      "@/hooks/*": ["./src/app/hooks/*"],
+      "@/pages/*": ["./src/app/pages/*"],
+      "@/config/*": ["./src/config/*"],
+      "@/utils/*": ["./src/utils/*"],
+    }
+  }
+}
+

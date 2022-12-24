@@ -1,0 +1,1 @@
+export { SharedDataProvider } from './sharedDataProvider';

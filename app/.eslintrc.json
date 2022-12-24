@@ -1,0 +1,67 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "project": ["./tsconfig.json"]
+      }
+    }
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": ["prettier"],
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
+  },
+  "rules": {
+    "radix": "off",
+    "semi": "error",
+    "import/order": "off",
+    "linebreak-style": "off",
+    "import/no-cycle": "off",
+    "react/prop-types": "off",
+    "import/extensions": "off",
+    "react/display-name": "off",
+    "space-before-blocks": "off",
+    "no-underscore-dangle": "off",
+    "prefer-arrow-callback": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/no-array-index-key": "off",
+    "no-nonoctal-decimal-escape": "off",
+    "react/require-default-props": "off",
+    "no-unsafe-optional-chaining": "off",
+    "react/no-unused-prop-types": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-no-useless-fragment": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-anonymous-default-export": "off",
+    "react/function-component-definition": "off",
+    "@typescript-eslint/space-before-blocks": "off",
+    "@typescript-eslint/no-unused-expressions": "off",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "modifiers": ["destructured"],
+        "selector": "variable",
+        "format": null
+      }
+    ]
+  }
+}
